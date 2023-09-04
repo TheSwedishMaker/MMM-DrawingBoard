@@ -1,0 +1,45 @@
+#canvasWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+#drawingCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#openDrawingBoardImage {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 1000; /* optional, to ensure it stays above other elements */
+}
+
+#controlPanel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+}
+.controlButton {
+    margin: 20px;  /* Spacing between buttons */
+    background-color: white;  /* Button background color */
+    color: black;  /* Text color */
+    font-size: 18px;  /* Font size */
+}
+
+.controlButton:hover {
+    background-color: limegreen;  /* Hover background color */
+}
+
+.controlButton {
+    display: block;
+    font-size: 18px;
+    z-index: 10000;
+}
