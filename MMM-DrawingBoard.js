@@ -23,10 +23,6 @@ Module.register("MMM-DrawingBoard", {
 
         wrapper.appendChild(image);
         
-        // ... (rest of the code)
-    
-
-
         const canvasWrapper = document.createElement("div");
         canvasWrapper.id = "canvasWrapper";
         canvasWrapper.style.display = "none";
