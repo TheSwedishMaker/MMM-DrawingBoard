@@ -18,5 +18,8 @@ add the following to your config.js
 },
 ```
 
+Add a logo-image to your MMM-DrawingBoard folder and name it pen.png or change the 
+name of the image in MMM-DrawingBoard.js 
+
 This module uses MMM-ModuleController to hide all other modules when run. 
 Find it here: https://github.com/TheSwedishMaker/MMM-ModuleController
